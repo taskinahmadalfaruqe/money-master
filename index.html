@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <style>
+        form.form-example {
+        display: table;
+        }
+
+        div.form-example {
+        display: table-row;
+        }
+
+        label,
+        input {
+        display: table-row;
+        margin-bottom: 10px;
+        }
+
+        label {
+        padding-right: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="container mt-5 bg-red-500">
+                <div class="headding flex justify-center gap-2 bg-purple-600">
+                <h1 class="text-4xl font-bold text-[#31A5AC]">Money Master</h1>
+                <div class="image  h-[50px] w-[50px] ">
+                    <img src="image/money-bag.png" alt="Money Bag">
+                </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="container flex gap-10 mt-10 bg-red-500 justify-between">
+                <div class="image rounded-md overflow-hidden">
+                    <img src="image/Pexels Photo by Karolina Grabowska.png" alt="BannerImage">
+                </div>
+                <div class="form w-[500px] bg-[#eee] rounded-md overflow-hidden p-12 text-center">
+                    <h3 class="text-3xl font-semibold text-black">Income</h3>
+                    <form class="table space-y-5 mx-auto">
+                        <div class="table-row">
+                          <label class="table-cell" for="income">Income: </label>
+                          <input class="table-cell" type="number" name="income" id="income" required />
+                        </div>
+
+                        <div class="table-row mb-5">
+                            <span class="table-cell"></span>
+                            <h3 class=" table-cell text-3xl font-semibold text-black mx-auto mb-5">Expenses</h3>
+                        </div>
+
+                        
+
+                        <div class="table-row">
+                          <label class="table-cell" for="food">Food </label>
+                          <input class="table-cell" type="number" name="food" id="food" required />
+                        </div>
+                        <div class="table-row">
+                          <label class="table-cell" for="rent">Rent </label>
+                          <input class="table-cell" type="number" name="rent" id="rent" required />
+                        </div>
+                        <div class="table-row">
+                          <label class="table-cell" for="other">Other </label>
+                          <input class="table-cell" type="number" name="other" id="food" required />
+                        </div>
+
+                      </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
